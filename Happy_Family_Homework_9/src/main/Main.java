@@ -49,7 +49,6 @@ public class Main {
         for (int i = 0; i < human.length; i++) {
             System.out.println(human[i]);
         }
-        System.out.println("**************************************************************");
 
 
         FamilyController controller = new FamilyController(new FamilyService(new CollectionFamilyDao()));
