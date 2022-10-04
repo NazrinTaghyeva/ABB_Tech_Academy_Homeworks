@@ -62,12 +62,10 @@ public class App {
 
         Human1 mother = new Human1("Selena", "Gomez", 1935);
         Human1 father = new Human1("John", "Gomez", 1932);
-        // Human1 mother1 = new Human1("Marina", "Davidson", 1965);
-        // Human1 father1 = new Human1("Tommy", "Davidson", 1960);
+       
 
         Family family = new Family(mother, father);
-        // Family family1 = new Family(mother1,father1);
-        // System.out.println("-----");
+      
 
         Map<String, String> schedule = new HashMap<>();
         schedule.put(DayOfWeek.SUNDAY.name(), "do home work");
@@ -75,8 +73,7 @@ public class App {
         // mother1.setSchedule(schedule);
         Human1 child = new Human1("Kate", "Gomez", 2000,
                 95, schedule, family);
-        // Human1 child1 = new Human1("Sergio", "Davidson", 1992,
-        //         93, schedule,family1);
+        
         Set<Pet1> pet2 = new HashSet<>();
         family.setPet(pet2);
 
@@ -123,7 +120,6 @@ public class App {
         // System.out.println(father.describeAge(today,year));
 
 
-        // System.out.println(familyController.adoptChild(new Human1("Jack", "Tomson", "24/03/2001", 100),family01));
 
 
     }
